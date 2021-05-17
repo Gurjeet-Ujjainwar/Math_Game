@@ -106,7 +106,7 @@ public class StartGame extends AppCompatActivity {
             incorrectAnswer = getAnswer(selectedOperator);
             if (incorrectAnswer == correctAnswer)
                 continue;;
-                incorrectAnswers.add(incorrectAnswer);
+            incorrectAnswers.add(incorrectAnswer);
         }
 
         for (int i=0; i<3; i++){
